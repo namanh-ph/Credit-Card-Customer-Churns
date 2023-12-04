@@ -128,22 +128,9 @@ The satisfaction of credit card services must be further investigated.
 
 ## 4. Prediction model
 
-A prediction model is built to investigate the likelihood of other customers to leave the service or not in the future. Here, Logistic Regression and Support Vector Machine (SVM) are used for this type of binary classification.
 
-### 4.1. Logistic Regression Model
+To investigate the likelihood of other customers to leave the service or not in the future, ML models are to be selected to perform binary classification. After evaluating the possible models using PyCaret library, I decided to pick out 3 models for further fine-tuning (Logistic Rrgression, Support Vector Machine, and XGBoost. After the best parameters are found and the models are built, of of all models, XGBoost seems to perform the best in both PyCaret evaluation and the comparision with 2 other model. However, with these scores, XGBoost could be prone to overfitting. Further fine-tuning is needed.
 
-* Accuracy score: 0.84
-* AUC score: 0.92
+![Confusion Matrix of XGBoost Model](https://github.com/nam-anh-21/Credit-Card-Customer-Churns/blob/main/Images/5.%20Confusion%20Matrix%20of%20XGBoost%20Model.png)
 
-![Logistic Regression - Confusion Matrix](https://github.com/nam-anh-21/Credit-Card-Customer-Churns/blob/main/Images/5.%20Logistic%20Regression%20-%20Confusion%20Matrix.png)
-
-![Logistic Regression - ROC Curve](https://github.com/nam-anh-21/Credit-Card-Customer-Churns/blob/main/Images/6.%20Logistic%20Regression%20-%20ROC%20Curve.png)
-
-### 4.2. Support Vector Machine Model
-
-* Accuracy score: 0.96
-* AUC score: 0.99
-
-![Support Vector Machine - Confusion Matrix](https://github.com/nam-anh-21/Credit-Card-Customer-Churns/blob/main/Images/7.%20Support%20Vector%20Machine%20-%20Confusion%20Matrix.png)
-
-![Support Vector Machine - ROC Curve](https://github.com/nam-anh-21/Credit-Card-Customer-Churns/blob/main/Images/8.%20Support%20Vector%20Machine%20-%20ROC%20Curve.png)
+![ROC of XGBoost Model](https://github.com/nam-anh-21/Credit-Card-Customer-Churns/blob/main/Images/6.%20ROC%20of%20XGBoost.png)
