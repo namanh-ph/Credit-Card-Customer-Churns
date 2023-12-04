@@ -133,4 +133,4 @@ To investigate the likelihood of other customers to leave the service or not in 
 
 ![Confusion Matrix of XGBoost Model](https://github.com/nam-anh-21/Credit-Card-Customer-Churns/blob/main/Images/5.%20Confusion%20Matrix%20of%20XGBoost%20Model.png)
 
-![ROC of XGBoost Model](https://github.com/nam-anh-21/Credit-Card-Customer-Churns/blob/main/Images/6.%20ROC%20of%20XGBoost.png)
+![ROC of XGBoost Model](https://github.com/nam-anh-21/Credit-Card-Customer-Churns/blob/main/Images/6.%20ROC%20of%20XGBoost%20Model.png)
