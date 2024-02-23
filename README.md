@@ -4,7 +4,7 @@
 
 ### 1.1. Background
 
-A business manager of a consumer credit card bank is facing the problem of customer attrition. They want to analyse the data to find out the reason behind this and leverage the same to predict customers who are likely to drop off. They also want to predict customer churn from the existing data, thereby gaining some insights on how the bank can reduce the customers who have churned.
+A consumer credit card bank is facing the problem of customer attrition. They want to analyse the data to find out the reason behind this and leverage the same to predict customers who are likely to drop off. They also want to predict customer churn from the existing data, thereby gaining some insights on how the bank can reduce the customers who have churned.
 
 ### 1.2. Objectives
 
