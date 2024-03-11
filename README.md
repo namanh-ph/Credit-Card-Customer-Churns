@@ -1,4 +1,4 @@
-# Credit Card Customer Churns
+# Predictive Churn Analysis in Credit Card Banking
 
 ## 1. Introduction
 
